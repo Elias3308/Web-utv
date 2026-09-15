@@ -3,8 +3,25 @@ body {
 }
 
 section {
-    height: 20dvh;
+    height: 15dvh;
     width: 20dvw;
     border: 1px solid black;
     border-radius: 20px;
+}
+
+
+section:nth-child(1) {
+    background-color: rgb(137, 165, 255);
+}
+section:nth-child(2) {
+    background-color: rgb(139, 255, 137);
+}
+section:nth-child(3) {
+    background-color: rgb(255, 137, 137);
+}
+section:nth-child(4) {
+    background-color: rgb(255, 255, 137);
+}
+section:nth-child(5) {
+    background-color: rgb(255, 137, 255);
 }
