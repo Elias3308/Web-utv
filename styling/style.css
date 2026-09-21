@@ -1,7 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Dela+Gothic+One&display=swap');
 
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-color: #9381FF;
+    --text-color: #F8F7FF;
+    --header-color: #201C38;
+}
+
 body {
-    background-color: rgb(235, 172, 249);
+    background-color: var(--bg-color);
+    color: var(--text-color);
     display: flex;
     flex-direction: column;
     justify-content: center;
